@@ -29,4 +29,4 @@ You need to have Python3 to run this website.
 Run the website
 
 ### Author
-Gitu Mbugua 
+Nicholas Muchiri

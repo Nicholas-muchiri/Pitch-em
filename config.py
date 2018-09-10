@@ -11,13 +11,13 @@ class ProdConfig(Config):
     '''
     production configuration child class
     '''
-    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
-
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://nicholas:golfgti10@localhost/pitchem'
+    
 class DevConfig(Config):
     '''
     development configuration child class
     '''
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://gitu_m:sqlpass@localhost/pitchsite'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://nicholas:golfgti10@localhost/pitchem'
     DEBUG = True
 
 config_options = {
