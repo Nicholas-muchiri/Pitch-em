@@ -15,17 +15,17 @@ class ProdConfig(Config):
     production configuration child class
 
     '''
-    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://nicholas:golfgti10@localhost/pitchem'
+    #SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://nicholas:golfgti10@localhost/pitchem'
     
 class DevConfig(Config):
     '''
     development configuration child class
     '''
-  
-    pass
+    SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://nicholas:golfgti10@localhost/pitchem'
     
-   DEBUG = True
+    # DEBUG = True
+    
 config_options = {
-# 'development':DevConfig,
+'development':DevConfig,
 'production':ProdConfig
 }
