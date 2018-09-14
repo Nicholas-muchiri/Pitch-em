@@ -11,7 +11,7 @@
         <div class="well col-xs-12 col-sm-4 col-md-4 col-lg-4 pitch-card">
             <div class="row avatar-row">
                 <div class="col-md-2 col-lg-2" id="avatar-column">
-                    <img id="avatar" src="/static/img/avatar.png" alt="Avatar">
+                    <img id="avatar" src="/static/image/avatar.jpeg" alt="Avatar">
                 </div>
                 <div class="col-md-8 col-lg-8">
                     <h4>{{pitch.user.username}}</h4>
@@ -22,7 +22,7 @@
                 <h4><b>{{pitch.title}}</b></h4>
                 <p>{{pitch.post}}</p>
             </div>
-            <a href="/pitch/reviews/{{pitch.id}}">View Reviews</a>            
+            <a href="/pitch/reviews/{{pitch.id}}">Check Reviews</a>            
         </div>
     {% endfor %}
 {% endmacro %}
@@ -32,7 +32,7 @@
         <div class="well reviews-well">
             <li>
                 <h3>{{review.post_review}}</h3>
-                <p>by {{review.user.username}}</p>
+                <p id="review">by {{review.user.username}}</p>
             </li>
         </div>
     {% endfor %}

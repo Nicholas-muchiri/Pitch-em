@@ -13,10 +13,36 @@
     padding-left: 5rem;
 }
 
-h3 {
-    color: white;
+p {
+    color: black;
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
+    font-family: "Lovers Quarrel";
+}
+
+#review{
+    font-size: 30px;
+    font-family: "Lovers Quarrel";
+    color: black;
+
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    font-size: 110px;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+    display: flex;
+    font-family: "Lovers Quarrel";
+}
+
+#home-text {
+    color: black;
+    text-align: center;
+    font-size: 110px;
+    font-family: "Lovers Quarrel";
 }
 
 
@@ -26,7 +52,7 @@ h3 {
     display: flex;
     justify-content: center;
     font-family: 'Lovers Quarrel';
-    font-size: 305px;
+    font-size: 405px;
     font-color:white;
 }
 
@@ -39,7 +65,7 @@ h3 {
     list-style: none;
 }
 .category-button {
-    background-color: Black;
+    background-color: white;
     color: rgb(255, 251, 251);
     padding-left: 20%;
     padding-right: 20%;
@@ -54,7 +80,7 @@ h3 {
 }
 #category-cards {
     margin-left: 2%;
-    padding-left: 30%
+    padding-left: 10%
 }
 .pitch-content {
     padding: 2%;
@@ -86,7 +112,7 @@ html, body {
 
 
 #category-head {
-    background-image: url("/static/image/min.jpg");
+    /*background-image: url("/static/image/pitch1.jpeg");*/
     background-repeat: no-repeat;
     width: 100%;
     margin-top: 0%;
