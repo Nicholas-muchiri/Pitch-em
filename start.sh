@@ -1,4 +1,5 @@
 export SECRET_KEY=iamacarenthusiast
+export DATABASE_URL='postgres://rljcnxvcopqzoc:4c7bf426af4dd0e96104d0f8d303cbee76874a48c45e302dcd5d692a8fe07746@ec2-174-129-236-147.compute-1.amazonaws.com:5432/ddmvef75nds2oq'
 
-export DATABASE_URL='postgres://tzichbbenskxsz:d8c071cb1042abc030f72a0719a0b4606c0a0a15598e2f1b750edea2d1d94f86@ec2-75-101-153-56.compute-1.amazonaws.com:5432/ddvmc9te6qtvtm'
+
 python3.6 manage.py server
