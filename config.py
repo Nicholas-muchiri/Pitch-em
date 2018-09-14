@@ -23,7 +23,7 @@ class DevConfig(Config):
     '''
     SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://nicholas:golfgti10@localhost/pitchem'
     
-    # DEBUG = True
+    DEBUG = True
     
 config_options = {
 'development':DevConfig,
