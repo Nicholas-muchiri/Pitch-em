@@ -1,4 +1,4 @@
-Pitche*em
+Pitche-em
 ===================
 
 - - - -
@@ -23,12 +23,11 @@ The pitches are organized by category. You can have different categories like pi
 + [x] Display trending pitches based on day, week, month, year.
 + [x] Display the latest pitches and comments.
 + [x] Create user accounts with roles 
-+ [x] Send email verification to users with secret token that expires after sometime
-+ [x] Generate [gravatars](https://en.gravatar.com/site/implement/images/python/)
++ [x] Send email verification to users 
 + [x] Editing user profiles
 
 ## Specifications
-[Specifications file](https://github.com/Nicholas-muchiri/pitch-em/app/Specs.md)
+[Specifications file](https://github.com/Nicholas-muchiri/pitch-em/Specs.md)
 
 
 ## Setup
@@ -40,7 +39,7 @@ This project was created on a debian linux platform but should work on other uni
 
 ### Cloning the repository
 ```bash
-git clone https://github.com/Nicholas-muchiri/pitch-em.git && cd pitche-em
+git clone https://github.com/Nicholas-muchiri/pitch-em.git && cd pitche*em
 ```
 
 ### Creating a virtual environment

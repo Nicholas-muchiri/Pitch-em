@@ -9,8 +9,10 @@ class Config:
     DEBUG = True
 
 class ProdConfig(Config):
+    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
     '''
     production configuration child class
+
     '''
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://nicholas:golfgti10@localhost/pitchem'
     
